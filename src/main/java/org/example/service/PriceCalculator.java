@@ -19,8 +19,8 @@ public class PriceCalculator {
     }
 
     /*
-    Assumption:
-    tiers in price Configuration are pre-sorted
+    Kindly read readme before validating it.
+    Range.of ensure than your ranges are correct i.e, from value will always less than or equal to "to" value
      */
     void validate(PriceConfiguration priceConfiguration) {
 

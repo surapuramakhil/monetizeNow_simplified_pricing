@@ -2,7 +2,7 @@
 
 ### Assumptions provided
 
-* tiers Array is presorted based on range from value
+* tiers Array is pre-sorted based on range.from value
 * Based on discussion with interviewer - upper bound of tier is not necessary to be Infinite. if quantity lies outside
   range of tiers then runtime error will be thrown
 

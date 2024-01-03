@@ -11,6 +11,11 @@ public class Range {
     }
 
     public static Range of(int from,int to){
+
+        if(from > to){
+            throw new RuntimeException("Invalid range from value is greater than to value");
+        }
+
         return  new Range(from,to);
     }
 
